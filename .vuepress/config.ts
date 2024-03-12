@@ -5,8 +5,8 @@ export default defineUserConfig({
   base: "/",
 
   lang: "en-US",
-  title: "Kedôm",
-  description: "A description of the fantasy world of Kedom.",
+  title: "",
+  description: "Fantasy Starcraft",
 
 
   theme,

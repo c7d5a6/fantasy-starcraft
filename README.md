@@ -1,9 +1,8 @@
 ---
 home: true
-icon: earth-americas
-title: Kedôm
+title: Fantasy Starcraft
 
-bgImageDark: assets/image/home.webp
+bgImageDark: assets/image/home.jpg
 bgImageStyle:
   background-attachment: fixed
 heroFullScreen: true
@@ -16,26 +15,26 @@ actions:
 
 highlights:
 - header: Arcanum
-  bgImageDark: assets/image/arcane.webp
+  bgImageDark: assets/image/terran.png
   features:
     - title: Дикая земля, погруженная в хаос и загадки прошлого
       icon: hand-sparkles
       link: ./lore/campaigns/arcanum/
 
 - header: Переплетение мифов  
-  bgImageDark: assets/image/temple.webp
+  bgImageDark: assets/image/zerg.png
   features:
     - title: Рассказы о богах
       icon: bolt
       link: ./lore/myth/gods/
     
 - header: Земли магии и тайн
-  bgImageDark: assets/image/city.webp
+  bgImageDark: assets/image/toss.png
   features:
     - title: География
       icon: earth-europe
       link: ./lore/geography/
 
 copyright: false
-footer: Copyright © 2022-present Kedôm, <a href="https://owlbeardm.com/" target="_blank">OwlbearDM</a>.
+footer: Copyright © 2024-present c7d5a6.
 ---

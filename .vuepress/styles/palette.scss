@@ -1,11 +1,12 @@
 // you can change colors here
-$theme-color: rgb(196, 106, 85);
+$theme-color: #70fe3a;
 $text-color: rgb(224, 224, 224);
-$theme-color-light: rgb(223, 79, 46);
+$theme-color-light: #f0ff90;
 
-$bg-color: #262626;
-$bg-color-secondary: #333;
-$border-color: #352a26;
+$bg-color: #000000;
+$bg-color-secondary: #050505;
+$border-color: #850100;
+$border-color-light: #d50103;
 
 $info-border-color: #444459;
 $info-bg-color: #4e4e5820;
@@ -21,6 +22,8 @@ html[data-theme="dark"] #app {
   //--code-color: #abb2bf;
   //--code-line-color: rgba(171, 178, 191, .67);
   --code-bg-color: $bg-color;
-  //--code-border-color: #343e51;
+  --navbar-bg-color: rgba(0, 0, 0, .85);
+  --border-color: #850100;
+  --border-color-light: #d50103;
   //--code-highlight-line-color: #2f3542;
 }

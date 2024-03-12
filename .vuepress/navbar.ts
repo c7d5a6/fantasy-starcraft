@@ -23,8 +23,8 @@ export default navbar([
     ],
   },
   {
-    text: "Foundry",
+    text: "Liquipedia",
     icon: "dice-d20",
-    link: "https://foundry.owlbeardm.com/",
+    link: "https://liquipedia.net/starcraft/AfreecaTV/StarCraft_League_Remastered/17",
   },
 ]);

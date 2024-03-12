@@ -5,11 +5,11 @@ import sidebar from "./sidebar.js";
 export default hopeTheme({
   hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
 
-  favicon: "/logo.png",
+  favicon: "/logo2.png",
 
   author: {
-    name: "OwlbearDM",
-    url: "https://owlbeardm.com",
+    name: "c7d5a6",
+    url: "https://c7d5a6.com",
   },
   darkmode: "enable",
 
@@ -17,7 +17,7 @@ export default hopeTheme({
 
   logo: "/logo.png",
 
-  repo: "owlbeardm/kedom",
+  repo: "c7d5a6/fantasy-starcraft",
 
   docsDir: "src",
 

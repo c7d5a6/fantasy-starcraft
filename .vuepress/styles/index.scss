@@ -1,152 +1,45 @@
 // place your custom styles here
 @import "palette";
 
-.theme-hope-content a:hover {
-  text-decoration: none;
+.vp-action.primary {
+  color: $theme-color;
+  font-weight: 900;
+  box-sizing: border-box;
+  background: url("https://images.blz-contentstack.com/v3/assets/blt9c12f249ac15c7ec/bltb5de5ae67a93d18c/646d181aeb5acf10b838eda9/scan_lines.png"), linear-gradient(180deg, rgba(0, 0, 0, 0.3) 30.73%, rgba(0, 51, 1, 0.3) 72.92%, rgba(0, 134, 3, 0.3) 100%), #151515;
+  background-size: cover;
+  background-blend-mode: lighten, normal, normal;
+  border: 1px solid  $theme-color;
+  border-radius: 4px;
+  font-family: "Eurostile Extd";
+  text-shadow: 0px 1px 5px #000000, 0px 1px 23px rgba(112, 255, 0, 0.29);
+}
+
+.vp-action.primary:hover {
+  filter: brightness(120%);
+  background: url("https://images.blz-contentstack.com/v3/assets/blt9c12f249ac15c7ec/bltb5de5ae67a93d18c/646d181aeb5acf10b838eda9/scan_lines.png"), linear-gradient(180deg, rgba(0, 0, 0, 0.3) 30.73%, rgba(0, 51, 1, 0.3) 72.92%, rgba(0, 134, 3, 0.3) 100%), #151515;
+  border-color: $theme-color-light;
   color: $theme-color-light;
 }
 
-.vp-page-title h1 .icon{
-  color: $text-color;
-}
-h1 {
-  font-size: 2.5rem;
-}
-h2 {
-  font-size: 2rem;
-}
-h3 {
-  font-size: 1.75rem;
-}
-h4 {
-  font-size: 1.25rem;
-}
-h5 {
-  font-size: 1.12rem;
-}
-h6 {
-  font-size: 1rem;
-}
-table {
-  display: table;
-  width: 100%;
-}
-blockquote {
-  font-size: 90%;
-  font-style: italic;
-  /* background-color: #9C4C2D; */
-}
-.god-img {
-  width: 150px;
-  background: $bg-color;
+.vp-project-home {
+  padding-top: 0;
 }
 
-.anc-img {
-  width: 250px;
+.vp-navbar {
+  margin: 5px;
+  backdrop-filter: none;
+  outline: 5px solid var(--navbar-bg-color);
+  border: 1px solid var(--border-color);
+  border-radius: 5px;
 }
 
-.anc-big-img {
-  width: 350px;
+.vp-navbar:hover {
+  border-color: $border-color-light;
 }
-
-@media only screen and (max-width: 550px) {
-  .anc-img {
-    width: 100%;
-  }
-
-  .anc-big-img {
-    width: 100%;
-  }
+.nav-link:hover {
+  border-color: $border-color-light;
 }
-
-.div-with-image {
-  display: inline-block;
-  width: 100%;
-}
-
-/* ----------------------------------------------------------- */
-
-@font-face {
-  font-family: 'Old_Runic';
-  src: url('/fonts/Old_Runic.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
-}
-
-@font-face {
-  font-family: 'Cirth';
-  src: url('/fonts/cirth.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
-}
-
-@font-face {
-  font-family: 'Annatar';
-  src: url('/fonts/tengwar-annatar-glaemscrafu.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
-}
-
-@font-face {
-  font-family: 'Annatar Italic';
-  src: url('/fonts/tengwar-annatar-glaemscrafu-italic.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
-}
-
-/* ------------------------------------------------------ */
-.dwarf-font {
-  font-family: "Noto Serif", serif;
-  /* color: #BFCDE0; */
-  font-size: 93.75%;
-}
-
-:not(.md-nav__link) .cirth-dwarf-font {
-  font-family: 'Cirth';
-  /* color: #BFCDE0; */
-  font-size: 112.5%;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.elf-font {
-  font-family: "EB Garamond", serif;
-  /* color: #9CC69B; */
-  font-size: 112.5%;
-}
-
-.sylvan-font {
-  font-family: 'EB Garamond', serif;
-  /* color: #252537; */
-  font-size: 112.5%;
-}
-
-.tengwar-elf-font {
-  font-family: 'Annatar';
-  font-size: 112.5%;
-}
-
-.tengwar-sylvan-font {
-  font-family: 'Annatar';
-  font-size: 112.5%;
-}
-
-.runic-old-font {
-  font-family: 'Old_Runic'!important;
-  font-size: 112.5%;
-  /* font-weight: bold; */
-}
-
-.orc-font {
-  font-family: "Andika", sans-serif;
-  /* color: #3e2723; */
-}
-
-.runic-font {
-  font-family: "Girassol", cursive;
-  /* color: #4f4a4a; */
+a:hover{
+  color: $theme-color-light;
+  text-decoration: none!important;
 }
