@@ -1,6 +1,6 @@
 ---
 id: index
-title: Мир Кедома
+title: Fantasy Points 
 slug: /
 sidebar_position: 1
 order: 1
@@ -8,14 +8,4 @@ dir:
   order: 1
 ---
 
-## Кампании
-
-- [Arcanum: Цветущая земля, погруженная в хаос и загадки прошлого](/lore/campaigns/arcanum/)
-
-## Переплетение мифов
-
-- [Боги и божественные создания](/lore/myth/gods/)
-
-## Земли магии и тайн
-
-- [География](/lore/geography/)
+<StarcraftTeamTable/>
